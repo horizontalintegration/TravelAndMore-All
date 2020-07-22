@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:text="TravelAndMore presents!"/>
+
+    <Button
+        android:id="@+id/btn_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time"
+        android:layout_marginTop="10dp"
+        android:text="Upcoming Event" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_below="@+id/btn_run"
+        android:text=""/>
+
+    <ImageView
+        android:id="@+id/image_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        />
+    <WebView
+        android:id="@+id/wv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        />
+</RelativeLayout>
+
